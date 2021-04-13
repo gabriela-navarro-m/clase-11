@@ -1,54 +1,24 @@
-![Powered-taller-R-orange](https://img.shields.io/badge/Powered_by-Taller_R-blue?logo=R) ![GitHub](https://img.shields.io/github/license/taller-R/clase_9) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/taller-R/clase_9/issues) ![](https://img.shields.io/github/followers/taller-R?style=social) 
+![Powered-taller-R-orange](https://img.shields.io/badge/Powered_by-Taller_R-blue?logo=R) ![GitHub](https://img.shields.io/github/license/taller-R/clase-11) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/taller-R/clase-11/issues) ![](https://img.shields.io/github/followers/taller-R?style=social) 
 
 <img src="https://avatars0.githubusercontent.com/u/69440432?s=400&u=96b3e58c713578b563d5c3d3c259f34965ac8e33&v=4" align="right" width=120 height=120 alt="" />
 
-# INSTRUCCIONES
+# 1. Descargar la clase
 
+Puedes descargar esta clase de 3 diferentes formas:
 
-## 1. Descargar la clase
+- 1.1. Descargar repositorio manualmente. [Ver como hacerlo aquí](https://raw.githubusercontent.com/taller-R/clase_1/master/help/pics/download.gif)
 
-Para descargar las clases debes seguir los siguientes pasos:
+- 1.2. Crear proyecto con versión de control de Git. [Ver como hacerlo aquí](https://raw.githubusercontent.com/taller-R/clase_1/master/help/pics/crear_proyecto.gif)
 
-```{r}
-# 1. Establecer el directorio de trabajo en el que quieres descargar la carpeta
-setwd("~/Downloads")
+- 1.3. Clonar el repositorio desde la terminal. [Ver como hacerlo aquí](https://github.com/taller-R/Clase_1/blob/master/help/pics/terminal.gif)
 
-# 2. Descargar el repositorio
-download.file(url = "https://github.com/taller-R/clase_9/archive/master.zip", 
-              destfile = "clase_9.zip")
+Nota: Para hacerlo de las formas **1.2.** o **1.3.** debe verificar si ya tiene instalado [Git](https://git-scm.com/downloads) en su equipo. Puedes verificar la versión de [Git](https://git-scm.com/downloads) escribiendo la siguiente linea de código `git --version` sobre la terminal de tu equipo.
 
-# 3. Descomprimir las carpeta
-unzip(zipfile = "clase_9.zip")
+# 2. Estructura de la clase
 
-# 4. Cambiar nuevamente el directorio de trabajo
-setwd("~/Downloads/clase_9-master")
+La clase está orientada a 2 objetivos: 
 
-# 5. Inspeccionar archivos en el directorio 
-list.files()
-```
-O puede seguir [estas](https://eduard-martinez.github.io/blog/github/clonar_github.html) instrucciones para crear una versión de control de Git en Rstudio que contenga este repositorio. En este [otro](https://www.dropbox.com/sh/bc76kg2h0xcid70/AAA86g9eP4l8ayr6KYEpvxI2a?dl=0) vídeo usted encuentra una explicación de como trabajar en un repositorio de GitHub. 
+- 2.1. Introducir a los estudiantes sobre los conceptos de R a desarrollar en la clase. La presentación de la clase se encuentran en la carpeta **lecture** bajo el nombre **intro-to-class.html**.
 
+- 2.2. Aplicar los conceptos vistos en clase. Para cumplir con este objetivo, el estudiante deberá revisar el script de la clase que se encuentra en la carpeta **scr** y resolver algunos task que se encuentran a los largo de este.
 
-
-## 2. Leer las instrucciones iniciales
-
-Después de descargar o clonar el repositorio de la clase, usted debe abrir el archivo **Intro-clase-9.html** que se encuentra dentro de la carpeta del repositorio. Siga atentamente las instrucciones.
-
-
-
-## 3. Script de la clase
-
-Ahora puedes ir a la carpeta **codes** y abrir el script **Clase 9 (sf).R** para replicar la clase.
-
-![](help/graphs/run_class.gif)
-
-## 4. Notas
-* Los vídeos de la clase se encuentran [aquí](https://www.dropbox.com/sh/4y4u2cg69q208iu/AABx0oumoRP0rf6mYDP1U2F1a?dl=0). Nota: Dropbox no deja reproducir los vídeos más de 1 hora en linea, debe descargarlos para que pueda verlos completos.
-
-* Por favor hacer todas las correcciones ortográficas a este y los demás archivos **.Rmd** del repositorio.
-
-## 5. Colaboradores 
-
-<a href="https://github.com/taller-R/clase_9/graphs/contributors">
-<img src="https://contributors-img.web.app/image?repo=taller-R/clase_9"/>
-</a>

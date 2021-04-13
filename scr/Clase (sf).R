@@ -92,10 +92,6 @@ saveRDS(object = data_sf,file = 'data/output/Puntos Bogota.rds')
 # 3. Reasignar un CRS #
 #---------------------#
 
-#### 3.0. Veamos la intuicion
-dev.off()
-grid.raster(readPNG('help/graphs/Proyeccion errada.png')) 
-
 #### 3.1. Veamos un ejemplo
 cundinamarca = st_read(dsn = 'data/input/Colombia_wgs84.shp',stringsAsFactors=F) %>% 
                subset(name_dpto == 'Cundinamarca')
